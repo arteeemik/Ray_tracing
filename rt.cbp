@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="rt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/arteeemik/Desktop/учеба/машграф/task1_src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/arteeemik/Desktop/учеба/машграф/task1_src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/arteeemik/Desktop/учеба/машграф/task1_src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rt">
+				<Option output="/Users/arteeemik/Desktop/учеба/машграф/task1_src/rt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arteeemik/Desktop/учеба/машграф/task1_src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arteeemik/Desktop/учеба/машграф/task1_src"/>
+					<Add directory="/Users/arteeemik/Desktop/учеба/машграф/task1_src/lib/stb"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 rt"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rt/fast">
+				<Option output="/Users/arteeemik/Desktop/учеба/машграф/task1_src/rt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arteeemik/Desktop/учеба/машграф/task1_src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arteeemik/Desktop/учеба/машграф/task1_src"/>
+					<Add directory="/Users/arteeemik/Desktop/учеба/машграф/task1_src/lib/stb"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 rt/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/arteeemik/Desktop/учеба/машграф/task1_src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/arteeemik/Desktop/учеба/машграф/task1_src/Bitmap.cpp">
+			<Option target="rt"/>
+		</Unit>
+		<Unit filename="/Users/arteeemik/Desktop/учеба/машграф/task1_src/Bitmap.h">
+			<Option target="rt"/>
+		</Unit>
+		<Unit filename="/Users/arteeemik/Desktop/учеба/машграф/task1_src/geometry.h">
+			<Option target="rt"/>
+		</Unit>
+		<Unit filename="/Users/arteeemik/Desktop/учеба/машграф/task1_src/main.cpp">
+			<Option target="rt"/>
+		</Unit>
+		<Unit filename="/Users/arteeemik/Desktop/учеба/машграф/task1_src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
